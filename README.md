@@ -15,3 +15,7 @@ readByte(int location); //reads a single byte from the specified memory location
 readInt(int location); //reads an unsigned int from the specified memory location
 
 readLong(int location); //reads an unsigned long from the specified memory location
+
+When creating an instance of the ryFram Class you should include the device address like so.
+
+ryFRAM fram(0x50); //0x50 is the default Device address
